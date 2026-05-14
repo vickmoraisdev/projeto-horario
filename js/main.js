@@ -12,13 +12,13 @@ function carregar(){
     }
 
     if (horaAtual >= 0 && horaAtual < 12){
-        img.src = '../imagens/ftmanha.png'
+        img.src = 'imagens/ftmanha.png'
         document.body.style.backgroundColor = 'rgb(195, 139, 82)'
     } else if (horaAtual >= 12 && horaAtual < 18){
-        img.src = '../imagens/fttarde.png'
+        img.src = 'imagens/fttarde.png'
         document.body.style.backgroundColor = 'rgb(171, 165, 94)'
     } else{
-        img.src = '../imagens/ftnoite.png'
+        img.src = 'imagens/ftnoite.png'
         document.body.style.backgroundColor = 'rgb(58, 65, 76)'
     }
 }
