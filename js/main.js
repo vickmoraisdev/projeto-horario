@@ -22,3 +22,5 @@ function carregar(){
         document.body.style.backgroundColor = 'rgb(58, 65, 76)'
     }
 }
+
+setInterval(carregar, 1000)
